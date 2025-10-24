@@ -1,7 +1,7 @@
-import Faq2 from "@/components/faq/Faq2";
-import Faq3 from "@/components/faq/Faq3";
-import Footer15 from "@/components/footers/Footer15";
-import Header1 from "@/components/headers/Header1";
+// import Faq2 from "@/components/faq/Faq2";
+// import Faq3 from "@/components/faq/Faq3";
+// import Footer15 from "@/components/footers/Footer15";
+// import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        {/* <Header1 /> */}
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -36,11 +36,11 @@ export default function page() {
           </div>
 
           <div className="content-block">
-            <Faq2 />
-            <Faq3 />
+            {/* <Faq2 />
+            <Faq3 /> */}
           </div>
         </div>
-        <Footer15 />
+        {/* <Footer15 /> */}
       </div>
     </>
   );

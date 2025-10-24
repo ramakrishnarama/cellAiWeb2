@@ -1,7 +1,7 @@
 import CopyContainer from "@/components/common/CopyContainer";
-import Footer15 from "@/components/footers/Footer15";
-import Footer24 from "@/components/footers/Footer24";
-import Header1 from "@/components/headers/Header1";
+// import Footer15 from "@/components/footers/Footer15";
+// import Footer24 from "@/components/footers/Footer24";
+// import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,7 +13,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        {/* <Header1 /> */}
         <div className="page-content bg-white">
           {/* inner page banner */}
           <div
@@ -288,7 +288,7 @@ export default function Footer24() &lbrace;
           {/* contact area END */}
         </div>
 
-        <Footer24 />
+        {/* <Footer24 /> */}
       </div>
     </>
   );

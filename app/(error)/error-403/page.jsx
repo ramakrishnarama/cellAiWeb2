@@ -1,5 +1,5 @@
-import Footer15 from "@/components/footers/Footer15";
-import Header1 from "@/components/headers/Header1";
+// import Footer15 from "@/components/footers/Footer15";
+// import Header1 from "@/components/headers/Header1";
 import React from "react";
 
 export const metadata = {
@@ -10,7 +10,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        {/* <Header1 /> */}
         <div className="page-content">
           <div
             className="section-full dz_error-405 content-inner overlay-black-dark"
@@ -64,7 +64,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Footer15 />
+        {/* <Footer15 /> */}
       </div>
     </>
   );

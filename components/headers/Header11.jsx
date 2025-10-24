@@ -3,9 +3,8 @@
 import React from "react";
 import Nav from "./component/Nav";
 import Link from "next/link";
-import Image from "next/image";
-import { socialLinks, socialMediaLinks } from "@/data/socials";
-import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
+import { socialLinks } from "@/data/socials";
+// import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 export default function Header11() {
   return (
     <header className="site-header mo-left header header-curve ext-header">
@@ -65,7 +64,7 @@ export default function Header11() {
               </Link>
             </div>
             {/* nav toggle button */}
-            <button
+            {/* <button
               className="navbar-toggler collapsed navicon justify-content-end"
               type="button"
               onClick={toggleMobileMenu}
@@ -78,7 +77,7 @@ export default function Header11() {
               <span />
               <span />
               <span />
-            </button>
+            </button> */}
             {/* extra nav */}
             <div className="extra-nav">
               <div className="extra-cell">
